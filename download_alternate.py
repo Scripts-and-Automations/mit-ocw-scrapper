@@ -100,7 +100,7 @@ def download_course(course_id):
             else:
                 print("nenhum PDF aqui.")
         if not collected:
-            print(f"  ➡️ seção {section} não encontrada.")
+            print(f"  seção {section} não encontrada.")
             continue
 
         out_dir = os.path.join("downloads", slug, section)
